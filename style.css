@@ -1,0 +1,177 @@
+/*-----------------------
+----------------- style added-------------------- */
+/*-------------------- font family style ----------------------- */
+body{
+  font-family: 'DM Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.section-first{
+  background-color:#2D25A0;
+  width: 100%;
+  height: 100%;
+}
+nav a{
+  text-decoration: none;
+  padding-left: 30px;
+  color: #FFFFFF;
+
+ 
+}
+.login{
+ background-color:#E02C6D;
+ margin-right: 60px;
+ padding-left: 24px;
+ padding-right: 24px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color: #FFFFFF;
+ 
+ 
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+  margin-left: 130px;
+  
+}
+.section-one img{
+ 
+width: 556.01px;
+height: 438px;
+padding-right: 70px;
+padding-top: 65px;
+}
+.section-one{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  
+}
+h1{
+  color: #FFFFFF;
+  margin-left: 130px;
+  font-size: 54px;
+  font-weight: 500px;
+  line-height: 30px;
+   
+}
+.link-button{
+  text-decoration: none;
+  background-color: #E02C6D;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  margin-top: 464px;
+  margin-bottom: 169px;
+  margin-left: 130px;
+  font-size: 16px;
+  
+}
+.copa-amerika{
+  margin-top: 50px;
+}
+.section-second{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:50px;
+  margin: 100px;
+  
+}
+
+.players img{
+  width:440px;
+ padding-left: 25px;
+ padding-top: 25px;
+
+}
+.players{
+ padding: 2px;
+ background-color:#FFFFFF;
+  
+}
+.paragraph-tag{
+  width: 80%;
+  padding-left: 50px;
+  font-size: 20px;
+}
+.heading{
+  color: #0A0826;
+  font-weight:2000px;
+  font-size: 70px;
+    padding-right: 400px;
+}
+#color-id{
+padding-left: 130px;
+width: 50%;
+font-size: 20px;
+padding-bottom: 30px;
+
+}
+.color{
+  color: #6C6C6C;
+}
+.section-three{
+  margin-top: 150px;
+}
+.footer{
+  text-align: center;
+}
+.icon{
+  color: gray;
+  text-align: center;
+ 
+}
+.fa-instagram{
+  border: 20px solid lightgray;
+  border-radius: 3px 26px 3px 26px;
+}
+.fa-dribbble{
+  border: 20px solid lightgray;
+    border-radius: 3px 26px 3px 26px;
+}
+.fa-twitter{
+  border: 20px solid lightgray;
+    border-radius: 3px 26px 3px 26px;
+}
+.fa-youtube{
+  border: 20px solid lightgray;
+    border-radius: 3px 26px 3px 26px;
+}
+.copyright{
+  text-align: center;
+}
+/*-------------------------------------- media query ------------------------ */
+/*------------------------------------ ------
+--------------------------------------------mobile device ------------------------- */
+@media only screen and ( max-width:600px){
+  .section-first{
+    grid-template-columns: repeat(1,1fr);
+    display: none;
+    background-color:aqua;
+  }
+  footer{
+    display: none;
+    background-color: chartreuse;
+  }
+  .section-one{
+    grid-template-columns: repeat(1, 1fr);
+      display: none;
+      background-color: aqua;
+  }
+.section-second{
+  grid-template-columns: repeat(1, 1fr);
+    display: none;
+    background-color: aqua;
+}
+.section-three{
+  grid-template-columns: repeat(1, 1fr);
+    display: none;
+    background-color: aqua;
+}
+}
