@@ -152,32 +152,3 @@ padding-bottom: 30px;
 .copyright{
   text-align: center;
 }
-/*-------------------------------------- media query ------------------------ */
-/*------------------------------------ ------
---------------------------------------------mobile device ------------------------- */
-@media only screen and ( max-width:600px){
-  .section-first{
-    grid-template-columns: repeat(1,1fr);
-    display: none;
-    background-color:aqua;
-  }
-  footer{
-    display: none;
-    background-color: chartreuse;
-  }
-  .section-one{
-    grid-template-columns: repeat(1, 1fr);
-      display: none;
-      background-color: aqua;
-  }
-.section-second{
-  grid-template-columns: repeat(1, 1fr);
-    display: none;
-    background-color: aqua;
-}
-.section-three{
-  grid-template-columns: repeat(1, 1fr);
-    display: none;
-    background-color: aqua;
-}
-}
